@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables — NEVER push these
+.env
+.env.local
+.env.*.local
+
+# PDFs and data — too large for GitHub
+apps/brain/scripts/pdfs/
+*.pdf
+
+# OCR and ML model cache
+.easyocr/
+*.pt
+*.pth
+
+# Node
+node_modules/
+.next/
+.turbo/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
